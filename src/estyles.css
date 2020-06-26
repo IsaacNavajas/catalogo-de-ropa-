@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Noto+Sans+TC:wght@500&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: none;
+    list-style:none;
+    box-sizing:border-box;
+    text-decoration: none;
+    overflow-x: hidden;
+    
+    
+}
+[class*="col-"]{
+    float: center;
+    padding:0;
+    margin: 0;
+
+    
+}
+a:hover{text-decoration:none;} a{text-decoration:none;}
+
+
+.constructor{
+    margin: 0 auto;
+
+}
+
+
+
+.Navbar{
+
+    border-width:1px;
+    text-align:center;
+    padding-left:10px;
+    padding-right:10px;
+    font-size:30px;
+    font-variant:small-caps;
+    float:left;
+    box-shadow: 0px 7px 5px -2px rgba(146, 146, 146, 0.26);
+    list-style:none;
+    padding-top: 11px;
+    margin-bottom: 70px;
+    height: 100px;
+    
+}
+
+.h1{
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    padding-left: 5px;
+    font-size:26px;
+    
+}
+
+.logo{
+    position: relative;;
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.botones{
+    display: inline;
+}
+
+
+ul,li{
+    position:relative;
+    margin: 10px;
+
+   
+    display: inline;
+
+}
+
+
+
+.hola{
+    color:blue;
+}
+
+
+/*Pageone*/
+
+#frases{
+    padding:80px 0px;
+    text-align: center;
+    height:300px; 
+    width:800px;
+}
+
+#imagen{
+    
+    
+        position:relative;
+        z-index:-1;           
+        text-align: center;
+        opacity: 0.5;
+    
+     
+}
+#tabla{
+    position:relative;
+    
+    z-index:6;
+    padding-top: 0px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    float:center;
+    text-align: center;
+   
+    width: 800px;
+
+    
+}
+
+#Footer{
+    position:relative;
+
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    float:center;
+    text-align: center;
+   background-color: black;
+    width: 800px;
+
+
+}
+
+
+

@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
+import './estyles.css'
 import {
   BrowserRouter,
   Switch,
@@ -13,17 +14,13 @@ import Layout from './Layout'
 import Pageone from './Pageone'
 
 
-
-
-
-
 ReactDOM.render(
-  <BrowserRouter>
-<Layout>
-                <Switch>
+    <BrowserRouter>
+      <Layout>
+            <Switch>
                     <Route exact strict path="/" component={Pageone}></Route>
-                </Switch>
-            </Layout>
-</BrowserRouter>,
+            </Switch>
+      </Layout>
+    </BrowserRouter>,
   document.getElementById('root')
 );

@@ -11,7 +11,7 @@ import Pageone from '../Pages/Pageone'
 import Layout from '../Layout'
 
 
-class Reactrouter extends React.Component{
+class Routers extends React.Component{
     render(){
         return(
             <div>
@@ -32,4 +32,4 @@ class Reactrouter extends React.Component{
 }   
 
 
-export default Reactrouter;
+export default Routers;

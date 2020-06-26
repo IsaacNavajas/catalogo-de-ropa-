@@ -7,7 +7,8 @@ import {
   Router
 } from "react-router-dom";
 
-import Navbar from './Pages/Navbar'
+import Navbar from './Navbar'
+
 
 class Layout extends React.Component{
     constructor(props){
@@ -15,11 +16,17 @@ class Layout extends React.Component{
     }
     render(){
         return(
-            
-            
-            <div ClassName="contructor col-12"> 
-            {this.props.children}
-             </div>
+            <React.Fragment>
+                <div className="container-fluid col-12"> 
+
+                    <Navbar/>
+                    
+                    {this.props.children}
+                  
+                </div>
+
+                
+             </React.Fragment>
         )
             
     }   
