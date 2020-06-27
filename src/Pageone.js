@@ -18,7 +18,6 @@ function Frases(){
     if(numerRandom <= 2){
         
         document.write(`<p id="frases">  "Vestir bien es un lenguaje instantaneo.” <strong>-Miucca Prada </strong></p>`)
-    
     }
     else if(numerRandom <= 4){
         
@@ -39,7 +38,6 @@ function Frases(){
 }
 
 
-
 class Pageone extends React.Component{
     
     render(){
@@ -47,7 +45,7 @@ class Pageone extends React.Component{
             <React.Fragment>
 
                 <div>
-                    <p >{Frases()}</p>
+                    <p className="col-12">{Frases()}</p>
                 </div>
 
                 <div>
