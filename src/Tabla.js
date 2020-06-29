@@ -1,16 +1,16 @@
 import React from "react";
 import {
-    BrowserRouter,
-    Switch,
-    Route,
     Link,
-    Router
   } from "react-router-dom";
 
+  import imagenubicacion from './imagenesweb/imagenubicacion.png'
+  import imagenropa from './imagenesweb/imagenropa.png'
+  import imagenfondo from './imagenesweb/imagenfondo.png'
 
 
 
-class Pageone extends React.Component{
+
+class Tabla extends React.Component{
     
     render(){
         return(
@@ -23,14 +23,14 @@ class Pageone extends React.Component{
                                     <ul className="col-12">
                                         <li className="col-6">
                                                 <Link to="/localizacion"><img id="ubicacion" 
-                                                src="http://imgfz.com/i/PFQs0X2.png" 
+                                                src={imagenubicacion}
                                                 
                                                 alt="localización">
                                             </img></Link>
                                         </li>
                                         <li className="col-6 ">
                                                 <Link to="/ropa"><img id="ropa" 
-                                                src="http://imgfz.com/i/gsSC5UJ.png" 
+                                                src={imagenropa}
                                                 
                                                 alt="ropa">
                                             </img></Link>
@@ -41,7 +41,7 @@ class Pageone extends React.Component{
                                     </ul>
 
                             <img id="imagen"  
-                            src="http://imgfz.com/i/uScgwnx.png" 
+                            src={imagenfondo}
                             className="img-fluid img-thumbnail " 
                             alt="Carpe Diem 1213">
                                 
@@ -61,4 +61,4 @@ class Pageone extends React.Component{
     }   
     
 }
-export default Pageone;
+export default Tabla;

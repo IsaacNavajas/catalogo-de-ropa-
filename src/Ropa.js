@@ -1,4 +1,7 @@
 import React from "react";
+import {
+    Link,
+  } from "react-router-dom";
 
 import imagenuno from './galeria/uno.png'
 import imagendos from './galeria/dos.png'
@@ -11,10 +14,7 @@ import imagenocho from './galeria/ocho.png'
 
 
 class Ropa extends React.Component{
-    constructor() {
-        super();
 
-      }
 
     render(){
         return(
@@ -26,22 +26,30 @@ class Ropa extends React.Component{
                         <div  className="col-3"></div>
                                     <div  className="col-6">
                                         
-                                            <div  className=" col-6 "> <img className="fotoscatalogo" src={imagenuno}></img></div>
+                                            <div  className=" col-6 "><img className="fotoscatalogo" src={imagenuno} alt="Imagen de CarpeDiem1213"></img></div>
 
-                                            <div  className="col-6"> <img className="fotoscatalogo" src={imagendos}></img></div>
+                                            <div  className="col-6"> <img className="fotoscatalogo" src={imagendos} alt="Imagen de CarpeDiem1213"></img></div>
+                                            
+                                            <div  className="separador row"></div>
 
+                                            <div  className=" col-6 "> <img className="fotoscatalogo" src={imagentres} alt="Imagen de CarpeDiem1213"></img></div>
 
-                                            <div  className=" col-6 "> <img className="fotoscatalogo" src={imagentres}></img></div>
+                                            <div  className="col-6"> <img className="fotoscatalogo" src={imagencuatro} alt="Imagen de CarpeDiem1213"></img></div>
 
-                                            <div  className="col-6"> <img className="fotoscatalogo" src={imagencuatro}></img></div>
+                                            <div  className="separador row"></div>
 
-                                            <div  className=" col-6 "> <img className="fotoscatalogo" src={imagencinco}></img></div>
+                                            <div  className=" col-6 "> <img className="fotoscatalogo" src={imagencinco} alt="Imagen de CarpeDiem1213"></img></div>
                       
-                                            <div  className=" col-6"> <img className="fotoscatalogo" src={imagenseis}></img></div>
+                                            <div  className=" col-6"> <img className="fotoscatalogo" src={imagenseis} alt="Imagen de CarpeDiem1213"></img></div>
 
-                                            <div  className=" col-6 "> <img className="fotoscatalogo" src={imagensiete}></img></div>
+                                            <div  className="separador row"></div>
+
+                                            <div  className=" col-6 "> <img className="fotoscatalogo" src={imagensiete} alt="Imagen de CarpeDiem1213"></img></div>
                             
-                                            <div  className=" col-6"> <img className="fotoscatalogo" src={imagenocho}></img></div>
+                                            <div  className=" col-6"> <img className="fotoscatalogo" src={imagenocho} alt="Imagen de CarpeDiem1213"></img></div>
+
+                                            <div  className="separador row"></div>
+                                            <div  className="separador row"></div>
 
                                     </div>
 

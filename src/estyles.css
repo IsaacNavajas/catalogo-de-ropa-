@@ -41,6 +41,7 @@ a:hover{text-decoration:none;} a{text-decoration:none;}
     width: 70px;
     height: 70px;
     margin-right: 10px;
+    z-index:4;
 }
 
 .botones{
@@ -66,7 +67,7 @@ ul,li{
    
     position: absolute;
     width: 38%;
-    margin-top:45%;
+    margin-top:40%;
     margin-left:120%;
     z-index:4;
     
@@ -75,7 +76,7 @@ ul,li{
 #ropa{
     position:absolute;
     width: 50%;
-    margin-top:35%;
+    margin-top:30%;
     margin-left:40%;
     z-index:4;
 
@@ -83,15 +84,16 @@ ul,li{
 #ubicacion:hover{
     position: absolute;
     width: 38%;
-    margin-top:43%;
+    margin-top:37%;
     margin-left:120%;
     z-index:4;
+    
     
 }
 #ropa:hover{
     position:absolute;
     width: 50%;
-    margin-top:33%;
+    margin-top:27%;
     margin-left:40%;
 
     z-index:4;
@@ -138,6 +140,24 @@ ul,li{
 .link{
     color:black;
 }
+
+.link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #f8f8f8, #e47b36, #8b8686);
+    z-index: 1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+.link:hover::before {
+    transform: scaleX(1);
+  }
 .link:hover{
     color:rgb(255, 115, 0);
 }
@@ -157,8 +177,8 @@ ul,li{
 }
 .descripcion{
     position:relative;
-    float:left;
-    border:solid black 1px;
+    margin-top: 20px;
+   
 }
 
 .fotoscatalogo{
@@ -166,5 +186,17 @@ ul,li{
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-    padding-bottom: 80px;
+
+ 
+}
+
+.posicionimagenerror{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.separador{
+    margin: 40px;
+    padding: 1%;
 }
