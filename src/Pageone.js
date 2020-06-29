@@ -1,20 +1,13 @@
 import React from "react";
-import {
-  BrowserRouter,
-  Switch,
-  Route,
-  Link,
-  Router
-} from "react-router-dom";
-
 
 import Tabla from './Tabla'
 
-
-var random = Math.random() * 10
-var numerRandom= random.toFixed(0)
-
+   
 function Frases(){
+    
+    var random = Math.random() * 10
+    var numerRandom= random.toFixed(0)
+    
     if(numerRandom <= 2){
         
         document.write(`<p id="frases">  "Vestir bien es un lenguaje instantaneo.” <strong>-Miucca Prada </strong></p>`)
@@ -39,21 +32,37 @@ function Frases(){
 
 
 class Pageone extends React.Component{
+    constructor() {
+        super();
+        this.state = {  };
+
+      }
+
+      componentDidMount() {
+        
+        this.state.mostrarimagen=true;
+      }
     
-    render(){
+      componentWillUnmount() {
+        this.state.mostrarimagen=false;
+      }
+
+      
+
+
+    render(
+        ){
         return(
             <React.Fragment>
 
                 <div>
-                    <p className="col-12">{Frases()}</p>
+                    <Tabla/>
                 </div>
 
-                <div>
-
-
-                </div>
-               
-                <Tabla/>
+                <div>   
+  
+                   
+                </div>    
 
             </React.Fragment>
             

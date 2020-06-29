@@ -16,35 +16,39 @@ class Pageone extends React.Component{
         return(
             <React.Fragment>
 
-                <div >
-                    <div id="tabla" className="col-12">
-                <ul className="col-12">
-                    <li className="col-12">
-                            <Link><img id="ubicacion" 
-                            src="http://imgfz.com/i/EVkZ1Fy.png" 
-                            
-                            alt="...">
-                           </img></Link>
-                    </li>
-                    <li className="col-12 z-index:10;">
-                            <Link><img id="ropa" 
-                            src="http://imgfz.com/i/0IFqwo8.png" 
-                            
-                            alt="...">
-                           </img></Link>
-                    </li>
+                <div className="row">
+                <div className="col-4"></div>
+                    <div id="tabla" className="col-4">
+
+                                    <ul className="col-12">
+                                        <li className="col-6">
+                                                <Link to="/localizacion"><img id="ubicacion" 
+                                                src="http://imgfz.com/i/PFQs0X2.png" 
+                                                
+                                                alt="localización">
+                                            </img></Link>
+                                        </li>
+                                        <li className="col-6 ">
+                                                <Link to="/ropa"><img id="ropa" 
+                                                src="http://imgfz.com/i/gsSC5UJ.png" 
+                                                
+                                                alt="ropa">
+                                            </img></Link>
+                                        </li>
 
 
 
-                </ul>
-                            <img id="imagen" 
-                            src="http://imgfz.com/i/BPANe7L.png" 
-                            className="img-fluid img-thumbnail" 
-                            alt="...">
+                                    </ul>
+
+                            <img id="imagen"  
+                            src="http://imgfz.com/i/uScgwnx.png" 
+                            className="img-fluid img-thumbnail " 
+                            alt="Carpe Diem 1213">
                                 
                             </img>
 
                     </div>
+                    <div className="col-4"></div>
                 </div>
 
 
