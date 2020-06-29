@@ -17,8 +17,8 @@ class Pageone extends React.Component{
             <React.Fragment>
 
                 <div className="row">
-                <div className="col-4"></div>
-                    <div id="tabla" className="col-4">
+                <div className="col-3"></div>
+                    <div id="tabla" className="col-6">
 
                                     <ul className="col-12">
                                         <li className="col-6">
@@ -48,7 +48,7 @@ class Pageone extends React.Component{
                             </img>
 
                     </div>
-                    <div className="col-4"></div>
+                    <div className="col-3"></div>
                 </div>
 
 

@@ -16,9 +16,11 @@ import Ropa from './Ropa'
 import Localizacion from './Localizacion'
 
 
+
+
 ReactDOM.render(
     <BrowserRouter>
-      <Layout>
+      <Layout >
             <Switch>
                     <Route exact strict path="/" component={Pageone}></Route>
                     <Route exact strict path="/ropa" component={Ropa}></Route>

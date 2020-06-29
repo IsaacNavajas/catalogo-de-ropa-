@@ -14,7 +14,7 @@ class Layout extends React.Component{
     render(){
         return(
             <React.Fragment>
-                <div className="container-fluid col-12"> 
+                <div > 
 
                     <Navbar/>
                     
