@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/catalogo-de-ropa-/static/css/main.5c38377d.chunk.css",
+    "main.css": "/catalogo-de-ropa-/static/css/main.5b3a6a35.chunk.css",
     "main.js": "/catalogo-de-ropa-/static/js/main.3bb88e8b.chunk.js",
     "main.js.map": "/catalogo-de-ropa-/static/js/main.3bb88e8b.chunk.js.map",
     "runtime-main.js": "/catalogo-de-ropa-/static/js/runtime-main.f99d8084.js",
@@ -9,10 +9,10 @@
     "static/js/2.81b971a1.chunk.js": "/catalogo-de-ropa-/static/js/2.81b971a1.chunk.js",
     "static/js/2.81b971a1.chunk.js.map": "/catalogo-de-ropa-/static/js/2.81b971a1.chunk.js.map",
     "index.html": "/catalogo-de-ropa-/index.html",
-    "precache-manifest.dc8cdb33de383e15bd9ebb52001763da.js": "/catalogo-de-ropa-/precache-manifest.dc8cdb33de383e15bd9ebb52001763da.js",
+    "precache-manifest.689ef1d7dab0554eff4bb81f781791ba.js": "/catalogo-de-ropa-/precache-manifest.689ef1d7dab0554eff4bb81f781791ba.js",
     "service-worker.js": "/catalogo-de-ropa-/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/catalogo-de-ropa-/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.5c38377d.chunk.css.map": "/catalogo-de-ropa-/static/css/main.5c38377d.chunk.css.map",
+    "static/css/main.5b3a6a35.chunk.css.map": "/catalogo-de-ropa-/static/css/main.5b3a6a35.chunk.css.map",
     "static/js/2.81b971a1.chunk.js.LICENSE.txt": "/catalogo-de-ropa-/static/js/2.81b971a1.chunk.js.LICENSE.txt",
     "static/media/cinco.png": "/catalogo-de-ropa-/static/media/cinco.829ba48d.png",
     "static/media/cuatro.png": "/catalogo-de-ropa-/static/media/cuatro.829ba48d.png",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.f99d8084.js",
     "static/css/2.829c9cb5.chunk.css",
     "static/js/2.81b971a1.chunk.js",
-    "static/css/main.5c38377d.chunk.css",
+    "static/css/main.5b3a6a35.chunk.css",
     "static/js/main.3bb88e8b.chunk.js"
   ]
 }
