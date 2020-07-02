@@ -1,0 +1,184 @@
+[33mcommit 877b8512dd6c7903f587bf34a66e616c3f2346c6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: isaac <isaacnavajas@gmail.com>
+Date:   Mon Jun 29 23:53:50 2020 +0200
+
+    pagina error
+
+ pie.png                                            | Bin [31m608998[m -> [32m0[m bytes
+ portada 2.png                                      | Bin [31m546623[m -> [32m0[m bytes
+ portada.png                                        | Bin [31m637124[m -> [32m0[m bytes
+ src/Error.js                                       |  23 [32m+++++++++++[m
+ src/Error404.js                                    |  28 [32m+++++++++++++[m
+ src/Footer.js                                      |  24 [32m+++++++++++[m
+ src/Layout.js                                      |   5 [32m+[m[31m--[m
+ src/Localizacion.js                                |  36 [32m++++++++[m[31m--------[m
+ src/Navbar.js                                      |  19 [32m+++++[m[31m----[m
+ src/Pageone.js                                     |  46 [32m+++[m[31m------------------[m
+ src/Ropa.js                                        |  30 [32m+++++++++[m[31m-----[m
+ src/Routers.js                                     |  35 [31m----------------[m
+ src/Tabla.js                                       |  18 [32m++++[m[31m----[m
+ src/error.png                                      | Bin [31m0[m -> [32m21963[m bytes
+ src/estyles.css                                    |  46 [32m+++++++++++++++++[m[31m----[m
+ src/imagenesweb/error.png                          | Bin [31m0[m -> [32m16666[m bytes
+ portada one.png => src/imagenesweb/imagenfondo.png | Bin
+ .../imagenesweb/imagenropa.png                     | Bin
+ .../imagenesweb/imagenubicacion.png                | Bin
+ logo1213.png => src/imagenesweb/logo (3).png       | Bin
+ logo.png => src/imagenesweb/logo.png               | Bin
+ .../imagenesweb/mapa1 imagen1.png                  | Bin
+ .../imagenesweb/mapa1 imagen2.png                  | Bin
+ .../imagenesweb/mapa2 imagen1.png                  | Bin
+ .../imagenesweb/mapa2 imagen2.png                  | Bin
+ src/index.js                                       |   4 [32m+[m[31m-[m
+ 26 files changed, 179 insertions(+), 135 deletions(-)
+
+[33mcommit 02b35787749890abc5bcdd0eccf45c76350fcc7a[m
+Author: isaac <isaacnavajas@gmail.com>
+Date:   Mon Jun 29 19:34:15 2020 +0200
+
+    ruta ropa echa
+
+ src/logo.png => logo.png                   | Bin
+ src/logo1213.png => logo1213.png           | Bin
+ src/mapa1 imagen1.png => mapa1 imagen1.png | Bin
+ src/mapa1 imagen2.png => mapa1 imagen2.png | Bin
+ src/mapa1 imagen3.png => mapa1 imagen3.png | Bin
+ src/mapa2 imagen1.png => mapa2 imagen1.png | Bin
+ src/mapa2 imagen2.png => mapa2 imagen2.png | Bin
+ src/mapa2 imagen3.png => mapa2 imagen3.png | Bin
+ src/pie.png => pie.png                     | Bin
+ src/portada 2.png => portada 2.png         | Bin
+ src/portada one.png => portada one.png     | Bin
+ src/portada.png => portada.png             | Bin
+ public/index.html                          |   2 [32m+[m[31m-[m
+ src/Layout.js                              |   2 [32m+[m[31m-[m
+ src/Localizacion.js                        |  20 [32m+++[m[31m---[m
+ src/Pageone.js                             |  94 [32m++++++++++++++++[m[31m-------------[m
+ src/Ropa.js                                |  52 [32m++++++++++++[m[31m----[m
+ src/Tabla.js                               |   6 [32m+[m[31m-[m
+ src/estyles.css                            |  45 [32m++++++++[m[31m------[m
+ src/galeria/cinco.png                      | Bin [31m0[m -> [32m14655[m bytes
+ src/galeria/cuatro.png                     | Bin [31m0[m -> [32m14655[m bytes
+ src/galeria/dos.png                        | Bin [31m0[m -> [32m14655[m bytes
+ src/galeria/nueve.png                      | Bin [31m0[m -> [32m14655[m bytes
+ src/galeria/ocho.png                       | Bin [31m0[m -> [32m14655[m bytes
+ src/galeria/seis.png                       | Bin [31m0[m -> [32m14655[m bytes
+ src/galeria/siete.png                      | Bin [31m0[m -> [32m14655[m bytes
+ src/galeria/tres.png                       | Bin [31m0[m -> [32m14655[m bytes
+ src/galeria/uno.png                        | Bin [31m0[m -> [32m14655[m bytes
+ src/index.js                               |   4 [32m+[m[31m-[m
+ 29 files changed, 136 insertions(+), 89 deletions(-)
+
+[33mcommit 9207193fc6977b4ee2cb4f53e843f8fb799e869a[m
+Author: isaac <isaacnavajas@gmail.com>
+Date:   Mon Jun 29 13:34:17 2020 +0200
+
+    imagen portada centrada
+
+ public/index.html     |   2 [32m+[m[31m-[m
+ src/Footer.js         |  25 [31m-----------[m
+ src/Layout.js         |  10 [32m++[m[31m---[m
+ src/Localizacion.js   |  54 [32m+++++++++++++++++++++++[m
+ src/Navbar.js         |   4 [32m+[m[31m-[m
+ src/Pageone.js        |  49 [32m++++++++++++[m[31m---------[m
+ src/Ropa.js           |  40 [32m+++++++++++++++++[m
+ src/Tabla.js          |  54 [32m++++++++++++[m[31m-----------[m
+ src/estyles.css       | 117 [32m+++++++++++++++++++++++++++++[m[31m---------------------[m
+ src/index.js          |   5 [32m+++[m
+ src/mapa1 imagen3.png | Bin [31m0[m -> [32m100049[m bytes
+ src/mapa2 imagen3.png | Bin [31m0[m -> [32m19431[m bytes
+ src/portada 2.png     | Bin [31m0[m -> [32m546623[m bytes
+ src/portada one.png   | Bin [31m0[m -> [32m332752[m bytes
+ src/portada.png       | Bin [31m0[m -> [32m637124[m bytes
+ 15 files changed, 232 insertions(+), 128 deletions(-)
+
+[33mcommit 7d1ba68ae02fb4e4c9ae9933723ea27994c180a0[m
+Author: isaac <isaacnavajas@gmail.com>
+Date:   Sat Jun 27 09:00:17 2020 +0200
+
+    botones
+
+ src/Layout.js         |   1 [32m+[m
+ src/Navbar.js         |   2 [32m+[m[31m-[m
+ src/Pageone.js        |   4 [32m+[m[31m--[m
+ src/Tabla.js          |  39 [32m+++++++++++++++++++++++[m[31m----[m
+ src/estyles.css       |  71 [32m+++++++++++++++++++++++++++[m[31m-----------------------[m
+ src/mapa1 imagen1.png | Bin [31m0[m -> [32m103336[m bytes
+ src/mapa1 imagen2.png | Bin [31m0[m -> [32m62981[m bytes
+ src/mapa2 imagen1.png | Bin [31m0[m -> [32m11236[m bytes
+ src/mapa2 imagen2.png | Bin [31m0[m -> [32m12081[m bytes
+ 9 files changed, 75 insertions(+), 42 deletions(-)
+
+[33mcommit b726ed7941a7a3b5e5cfb0a2346f1467cf8469cb[m
+Author: isaac <isaacnavajas@gmail.com>
+Date:   Sat Jun 27 01:11:18 2020 +0200
+
+    avance
+
+ public/index.html             |   4 [32m+[m[31m-[m
+ src/Footer.js                 |  25 [32m++++++++[m
+ src/Layout.js                 |  19 [32m++++[m[31m--[m
+ src/Navbar.js                 |  42 [32m+++++++++++++[m
+ src/Pageone.js                |  48 [32m++++++++++++++[m[31m-[m
+ src/Pages/Navbar.js           |   0
+ src/Pages/Pageone.js          |  26 [31m---------[m
+ src/{Router.js => Routers.js} |   4 [32m+[m[31m-[m
+ src/Tabla.js                  |  31 [32m++++++++++[m
+ src/estyles.css               | 133 [32m++++++++++++++++++++++++++++++++++++++++++[m
+ src/index.js                  |  17 [32m+++[m[31m---[m
+ src/logo.png                  | Bin [31m0[m -> [32m14655[m bytes
+ src/logo1213.png              | Bin [31m0[m -> [32m13924[m bytes
+ src/pie.png                   | Bin [31m0[m -> [32m608998[m bytes
+ 14 files changed, 302 insertions(+), 47 deletions(-)
+
+[33mcommit 7962ef1c1bda2f97f9dce2780b3fb975107b894a[m
+Author: isaac <isaacnavajas@gmail.com>
+Date:   Fri Jun 26 18:53:38 2020 +0200
+
+    estructura
+
+ package-lock.json    | 101 [32m++++++++++++++++++++++++++++++++++++[m
+ package.json         |   2 [32m+[m
+ public/index.html    |  28 [32m+[m[31m---------[m
+ src/App.css          |  38 [31m--------------[m
+ src/App.js           |  26 [31m----------[m
+ src/App.test.js      |   9 [31m----[m
+ src/Layout.js        |  28 [32m++++++++++[m
+ src/Navbar.js        |   0
+ src/Pageone.js       |  21 [32m++++++++[m
+ src/Pages/Navbar.js  |   0
+ src/Pages/Pageone.js |  26 [32m++++++++++[m
+ src/Router.js        |  35 [32m+++++++++++++[m
+ src/estyles.css      |   0
+ src/index.css        |  13 [31m-----[m
+ src/index.js         |  34 [32m+++++++++[m[31m----[m
+ src/logo.svg         |   7 [31m---[m
+ src/serviceWorker.js | 141 [31m---------------------------------------------------[m
+ src/setupTests.js    |   5 [31m--[m
+ 18 files changed, 238 insertions(+), 276 deletions(-)
+
+[33mcommit 2343ee602b6c014b920658e145a220632d289479[m
+Author: isaac <isaacnavajas@gmail.com>
+Date:   Fri Jun 26 17:54:26 2020 +0200
+
+    Initialize project using Create React App
+
+ .gitignore           |    23 [32m+[m
+ README.md            |    68 [32m+[m
+ package-lock.json    | 13795 [32m+++++++++++++++++++++++++++++++++++++++++++++++++[m
+ package.json         |    34 [32m+[m
+ public/favicon.ico   |   Bin [31m0[m -> [32m3150[m bytes
+ public/index.html    |    43 [32m+[m
+ public/logo192.png   |   Bin [31m0[m -> [32m5347[m bytes
+ public/logo512.png   |   Bin [31m0[m -> [32m9664[m bytes
+ public/manifest.json |    25 [32m+[m
+ public/robots.txt    |     3 [32m+[m
+ src/App.css          |    38 [32m+[m
+ src/App.js           |    26 [32m+[m
+ src/App.test.js      |     9 [32m+[m
+ src/index.css        |    13 [32m+[m
+ src/index.js         |    17 [32m+[m
+ src/logo.svg         |     7 [32m+[m
+ src/serviceWorker.js |   141 [32m+[m
+ src/setupTests.js    |     5 [32m+[m
+ 18 files changed, 14247 insertions(+)

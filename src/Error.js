@@ -11,7 +11,7 @@ class Error404 extends React.Component{
         return(
             <React.Fragment>
 
-               <div className="col-12"><img className="posicionimagenerror" src={Error}></img></div>
+               <div className="col-12"><img className="posicionimagenerror" src={Error} alt="imagen de error"></img></div>
 
             </React.Fragment>
             

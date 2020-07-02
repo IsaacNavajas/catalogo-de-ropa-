@@ -17,26 +17,33 @@ class Tabla extends React.Component{
             <React.Fragment>
 
                 <div className="row">
-                <div className="col-3"></div>
-                    <div id="tabla" className="col-6">
+                <div className="col-md-3 col-md-3 col-sm-12"></div>
+                    <div id="tabla" className="col-6 col-md-6 col-sm-12">
 
-                                    <ul className="col-12">
-                                        <li className="col-6">
-                                                <Link to="/localizacion"><img id="ubicacion" 
-                                                src={imagenubicacion}
-                                                
-                                                alt="localización">
-                                            </img></Link>
-                                        </li>
-                                        <li className="col-6 ">
-                                                <Link to="/ropa"><img id="ropa" 
+
+
+                                    <ul>
+
+                                        <li className="col-lg-6 col-md-12 col-sm-12">
+                                                <Link to="/ropa"><img 
+                                                id="ropa" 
                                                 src={imagenropa}
                                                 
                                                 alt="ropa">
                                             </img></Link>
                                         </li>
+                                        
+                                        <li className="col-lg-6 col-md-12 col-sm-12">
+                                                <Link to="/localizacion"><img 
+                                                id="ubicacion" 
+                                                src={imagenubicacion}
+                                                
+                                                alt="localización">
+                                            </img></Link>
+                                        </li>
 
 
+                                        
 
                                     </ul>
 
@@ -48,7 +55,7 @@ class Tabla extends React.Component{
                             </img>
 
                     </div>
-                    <div className="col-3"></div>
+                    <div className="col-md-3 col-md-0 col-sm-0"></div>
                 </div>
 
 

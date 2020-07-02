@@ -15,8 +15,6 @@ import Localizacion from './Localizacion'
 import Error from './Error'
 
 
-
-
 ReactDOM.render(
     <BrowserRouter>
       <Layout >

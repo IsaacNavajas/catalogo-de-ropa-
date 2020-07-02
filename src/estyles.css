@@ -17,13 +17,14 @@
 }
 a:hover{text-decoration:none;} a{text-decoration:none;}
 
+/*Navbar*/
 
 .Navbar{
     text-align:center;
     font-size:30px;
     box-shadow: 0px 7px 5px -2px rgba(146, 146, 146, 0.26);
     padding-top: 11px;
-    margin-bottom: 100px;
+    margin-bottom: 3%;
     height: 100px;
 }
 
@@ -44,15 +45,30 @@ a:hover{text-decoration:none;} a{text-decoration:none;}
     z-index:4;
 }
 
-.botones{
-    display: inline;
+
+.link{
+    color:black;
 }
 
-
-ul,li{
-    position:relative;
-    margin: 10px;
-    display: inline;
+.link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #f8f8f8, #e47b36, #ffffff);
+    z-index: 1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.05s ease-in-out;
+  }
+  
+.link:hover::before {
+    transform: scaleX(1);
+  }
+.link:hover{
+    color:rgb(255, 115, 0);
 }
 
 
@@ -75,10 +91,11 @@ ul,li{
 }
 #ropa{
     position:absolute;
-    width: 50%;
+    
     margin-top:30%;
     margin-left:40%;
     z-index:4;
+    width: 50%;
 
 }
 #ubicacion:hover{
@@ -91,77 +108,31 @@ ul,li{
     
 }
 #ropa:hover{
-    position:absolute;
+    
     width: 50%;
     margin-top:27%;
     margin-left:40%;
 
     z-index:4;
 }
-
+/*Tabla*/
 #tabla{
-    position:relative;
+ 
     /*IMPORTANTE*/
     justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    background-color: black;
+    margin:auto;
+
 }
 
 
 #imagen{
-    position:absolute;
-    opacity: 0.5;
-    width: 100%;
-
-;
-
-    
-    
-}
-
-#Footer{
-    position:relative;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    float:center;
-    text-align: center;
-    background-color: yellow;
-    width: 800px;
+   
+    opacity: 0.2;
+    width: 100%;    
 }
 
 
-.newClass{
-    display: none;
-}
-
-.link{
-    color:black;
-}
-
-.link::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(to right, #f8f8f8, #e47b36, #8b8686);
-    z-index: 1;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-.link:hover::before {
-    transform: scaleX(1);
-  }
-.link:hover{
-    color:rgb(255, 115, 0);
-}
-
+/*Localizacion*/
 .googleMap{
     position:relative;
     float: right;
@@ -180,12 +151,13 @@ ul,li{
     margin-top: 20px;
    
 }
-
+/*Ropa*/
 .fotoscatalogo{
     display:block;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+    border: solid black 1px;
 
  
 }
@@ -200,3 +172,585 @@ ul,li{
     margin: 40px;
     padding: 1%;
 }
+
+#frase{
+    margin-top:3%;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+/*extra Small*/
+@media (max-width: 575.98px) { 
+     
+  
+    .Navbar{
+        text-align:center;
+        font-size:30px;
+        box-shadow: 0px 7px 5px -2px rgba(146, 146, 146, 0.26);
+        padding-top: 11px;
+        margin-bottom: 5%;
+        height: 70px;
+        width:100%;
+    }
+    
+    .h1{
+     
+        text-align: center;
+        font-family: 'Balsamiq Sans', cursive;
+        padding-top: 15px;
+        font-size:50%;
+        text-decoration: none;
+    
+    }
+    
+    .logo{
+        display:none;
+    }
+    
+    
+    .link{
+        
+        color:black;
+    }
+    
+    .link::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: none;
+        z-index: 1;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.05s ease-in-out;
+      }
+      
+    .link:hover::before {
+        transform: scaleX(1);
+      }
+    .link:hover{
+        color:rgb(255, 115, 0);
+    }
+    
+    
+    /*Pageone*/
+    
+    #frases{
+        padding:80px 0px;
+        text-align: center;
+    }
+    
+    #ubicacion{
+
+        position:relative;
+        width: 70%;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20%;
+    
+        z-index:4;
+    
+        
+    }
+    #ropa{
+        position:relative;
+        width: 100%;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 9%;
+    
+        z-index:4;
+    
+    }
+    #ubicacion:hover{
+       
+        position:relative;
+        width: 70%;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20%;
+    
+        z-index:4;
+    
+        
+    }
+    #ropa:hover{
+        position:relative;
+        width: 100%;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 9%;
+    
+        z-index:4;
+    
+    }
+    /*Tabla*/
+    #tabla{
+        position:relative;
+        /*IMPORTANTE*/
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+        
+
+    
+    }
+    
+    
+    #imagen{
+        display: none;
+       
+    }
+    
+    /*Localizacion*/
+    .googleMap{
+       position:none;
+        float: center;
+        border:none;
+        margin:auto;
+        border-radius: 15px;
+        align-items : center;
+        margin-right: auto;
+        margin-left: auto;
+        box-shadow: none;
+        margin:0px;
+        margin-right: 0px;
+        width: 100%;
+        height: 90%;
+    
+      
+    }
+    .descripcion{
+        position:relative;
+        margin-top: 40px;
+        margin-left:15px;
+        margin-right:15px;
+       
+    }
+    /*Ropa*/
+    .fotoscatalogo{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-top: 15px;
+        border: solid black 1px;
+    
+     
+    }
+    
+    .posicionimagenerror{
+        width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .separador{
+        margin: 0px;
+        padding: 0%;
+    }
+    
+    #frase{
+        margin-top:18%;
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    
+    
+     }
+    
+     
+   
+    /*small*/
+    @media (min-width: 576px) and (max-width: 767.98px) { 
+      
+       /*Navbar*/
+    
+    .Navbar{
+        text-align:center;
+        font-size:30px;
+        box-shadow: 0px 7px 5px -2px rgba(146, 146, 146, 0.26);
+        padding-top: 11px;
+        margin-bottom: 5%;
+        height: 100px;
+    }
+    
+    .h1{
+        text-align: center;
+        font-family: 'Balsamiq Sans', cursive;
+        padding-top: 3.5px;
+        font-size:26px;
+        text-decoration: none;
+    
+    }
+    
+    .logo{
+        position: relative;
+        width: 70px;
+        height: 70px;
+        margin-right: 10px;
+        z-index:4;
+    }
+    
+    
+    .link{
+        color:black;
+    }
+    
+    .link::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(to right, #f8f8f8, #e47b36, #ffffff);
+        z-index: 1;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.05s ease-in-out;
+      }
+      
+    .link:hover::before {
+        transform: scaleX(1);
+      }
+    .link:hover{
+        color:rgb(255, 115, 0);
+    }
+    
+    
+    /*Pageone*/
+    
+    #frases{
+        padding:80px 0px;
+        text-align: center;
+    }
+    
+    #ubicacion{
+
+        position:relative;
+        width: 230px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+    
+        z-index:4;
+    
+        
+    }
+    #ropa{
+        position:relative;
+        width: 300px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+    
+        z-index:4;
+    
+    }
+    #ubicacion:hover{
+        position:relative;
+        width: 230px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+    
+        z-index:4;
+        
+    }
+    #ropa:hover{
+        position:relative;
+        width: 300px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+    
+        z-index:4;
+    }
+    /*Tabla*/
+    #tabla{
+        position:relative;
+        /*IMPORTANTE*/
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+        
+
+    
+    }
+    
+    
+    #imagen{
+        display: none;
+       
+    }
+    
+    /*Localizacion*/
+    .googleMap{
+        position:none;
+         float: center;
+         border:none;
+         margin:auto;
+         border-radius: 15px;
+         align-items : center;
+         margin-right: auto;
+         margin-left: auto;
+         box-shadow: none;
+         margin:0px;
+         margin-right: 0px;
+         width: 100%;
+         height: 90%;
+     
+       
+     }
+     .descripcion{
+         position:relative;
+         margin-top: 40px;
+         margin-left:100px;
+         margin-right:100px;
+        
+     }
+    /*Ropa*/
+    .fotoscatalogo{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        margin-top: 20px;
+        border: solid black 1px;
+    
+     
+    }
+    
+    .posicionimagenerror{
+        width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .separador{
+        margin: 0px;
+        padding: 0%;
+    }
+    #frase{
+        margin-top:14%;
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    
+    
+     }
+    
+     
+    
+    /*Medium  - @media (min-width: 768px) and (max-width: 991.98px)@media (min-width: 768px) and (max-width: 991.98px)*/
+    @media(min-width: 768px) and (max-width: 991.98px)  { 
+        
+        /*Navbar*/
+    
+    .Navbar{
+        text-align:center;
+        font-size:30px;
+        box-shadow: 0px 7px 5px -2px rgba(146, 146, 146, 0.26);
+        padding-top: 11px;
+        margin-bottom: 5%;
+        height: 100px;
+    }
+    
+    .h1{
+        text-align: center;
+        font-family: 'Balsamiq Sans', cursive;
+        padding-top: 3px;
+        font-size:26px;
+        text-decoration: none;
+    
+    }
+    
+    .logo{
+        position: relative;
+        width: 70px;
+        height: 70px;
+        margin-right: 10px;
+        z-index:4;
+    }
+    
+    
+    .link{
+        color:black;
+    }
+    
+    .link::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(to right, #f8f8f8, #e47b36, #ffffff);
+        z-index: 1;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.05s ease-in-out;
+      }
+      
+    .link:hover::before {
+        transform: scaleX(1);
+      }
+    .link:hover{
+        color:rgb(255, 115, 0);
+    }
+    
+    
+    /*Pageone*/
+    
+    #frases{
+        padding:80px 0px;
+        text-align: center;
+    }
+    
+    #ubicacion{
+
+        position:relative;
+        width: 230px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15%;
+    
+        z-index:4;
+    
+        
+    }
+    #ropa{
+        position:relative;
+        width: 300px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+    
+        z-index:4;
+    
+    }
+    #ubicacion:hover{
+       
+        position:relative;
+        width: 230px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15%;
+    
+        z-index:4;
+        
+        
+    }
+    #ropa:hover{
+        position:relative;
+        width: 300px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+    
+        z-index:4;
+    }
+    /*Tabla*/
+    #tabla{
+        position:relative;
+        /*IMPORTANTE*/
+        justify-content: center;
+        align-items: center;
+        
+        margin:auto;
+
+    
+    }
+    
+    
+    #imagen{
+        display: none;
+       
+    }
+    
+    /*Localizacion*/
+    .googleMap{
+        position:none;
+         float: center;
+         border:none;
+         margin:auto;
+         border-radius: 15px;
+         align-items : center;
+         margin-right: auto;
+         margin-left: auto;
+         box-shadow: none;
+         margin:0px;
+         margin-right: 0px;
+         width: 100%;
+         height: 90%;
+     
+       
+     }
+     .descripcion{
+         position:relative;
+         margin-top: 40px;
+         margin-left:105px;
+         margin-right:105px;
+        
+     }
+    /*Ropa*/
+    .fotoscatalogo{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        margin-top: 40px;
+        border: solid black 1px;
+    
+     
+    }
+    
+    .posicionimagenerror{
+        width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .separador{
+        margin: 0px;
+        padding: 0%;
+    }
+    
+    #frase{
+        margin-top:10%;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    
+    
+     }
+    
+    /*Large*/
+    @media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+        
+     }
+    
+    /*Extra Large*/
+    @media (min-width: 1200px) {  }
+
