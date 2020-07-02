@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/catalogo-de-ropa-/static/css/main.5c38377d.chunk.css",
+    "main.js": "/catalogo-de-ropa-/static/js/main.3bb88e8b.chunk.js",
+    "main.js.map": "/catalogo-de-ropa-/static/js/main.3bb88e8b.chunk.js.map",
+    "runtime-main.js": "/catalogo-de-ropa-/static/js/runtime-main.f99d8084.js",
+    "runtime-main.js.map": "/catalogo-de-ropa-/static/js/runtime-main.f99d8084.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/catalogo-de-ropa-/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.81b971a1.chunk.js": "/catalogo-de-ropa-/static/js/2.81b971a1.chunk.js",
+    "static/js/2.81b971a1.chunk.js.map": "/catalogo-de-ropa-/static/js/2.81b971a1.chunk.js.map",
+    "index.html": "/catalogo-de-ropa-/index.html",
+    "precache-manifest.dc8cdb33de383e15bd9ebb52001763da.js": "/catalogo-de-ropa-/precache-manifest.dc8cdb33de383e15bd9ebb52001763da.js",
+    "service-worker.js": "/catalogo-de-ropa-/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/catalogo-de-ropa-/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.5c38377d.chunk.css.map": "/catalogo-de-ropa-/static/css/main.5c38377d.chunk.css.map",
+    "static/js/2.81b971a1.chunk.js.LICENSE.txt": "/catalogo-de-ropa-/static/js/2.81b971a1.chunk.js.LICENSE.txt",
+    "static/media/cinco.png": "/catalogo-de-ropa-/static/media/cinco.829ba48d.png",
+    "static/media/cuatro.png": "/catalogo-de-ropa-/static/media/cuatro.829ba48d.png",
+    "static/media/dos.png": "/catalogo-de-ropa-/static/media/dos.829ba48d.png",
+    "static/media/error.png": "/catalogo-de-ropa-/static/media/error.571962dc.png",
+    "static/media/imagenfondo.png": "/catalogo-de-ropa-/static/media/imagenfondo.77519a74.png",
+    "static/media/imagenropa.png": "/catalogo-de-ropa-/static/media/imagenropa.bbed6701.png",
+    "static/media/imagenubicacion.png": "/catalogo-de-ropa-/static/media/imagenubicacion.adf14503.png",
+    "static/media/logo.png": "/catalogo-de-ropa-/static/media/logo.829ba48d.png",
+    "static/media/ocho.png": "/catalogo-de-ropa-/static/media/ocho.829ba48d.png",
+    "static/media/seis.png": "/catalogo-de-ropa-/static/media/seis.829ba48d.png",
+    "static/media/siete.png": "/catalogo-de-ropa-/static/media/siete.829ba48d.png",
+    "static/media/tres.png": "/catalogo-de-ropa-/static/media/tres.829ba48d.png",
+    "static/media/uno.png": "/catalogo-de-ropa-/static/media/uno.829ba48d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f99d8084.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.81b971a1.chunk.js",
+    "static/css/main.5c38377d.chunk.css",
+    "static/js/main.3bb88e8b.chunk.js"
+  ]
+}
