@@ -6,7 +6,7 @@
     list-style:none;
     box-sizing:border-box;
     text-decoration: none;
-   
+    
  
 }
 [class*="col-"]{
@@ -16,6 +16,14 @@
 
     
 }
+
+.container{
+    width: 100%;
+height: 100%;
+border: 1px solid #ff0;
+}
+
+body{overflow-x: hidden;}
 a:hover{text-decoration:none;} a{text-decoration:none;}
 
 /*Navbar*/
@@ -27,6 +35,10 @@ a:hover{text-decoration:none;} a{text-decoration:none;}
     padding-top: 11px;
     margin-bottom: 3%;
     height: 100px;
+    width: 100%;
+    padding:none;
+    margin:none;
+   
 }
 
 .h1{
@@ -190,7 +202,7 @@ a:hover{text-decoration:none;} a{text-decoration:none;}
     .Navbar{
         text-align:center;
         font-size:30px;
-        box-shadow: 0px 7px 5px -2px rgba(146, 146, 146, 0.26);
+        box-shadow: none;
         padding-top: 11px;
         margin-bottom: 5%;
         height: 70px;
@@ -380,7 +392,7 @@ a:hover{text-decoration:none;} a{text-decoration:none;}
     .Navbar{
         text-align:center;
         font-size:30px;
-        box-shadow: 0px 7px 5px -2px rgba(146, 146, 146, 0.26);
+        box-shadow: none;
         padding-top: 11px;
         margin-bottom: 5%;
         height: 100px;
@@ -567,7 +579,7 @@ a:hover{text-decoration:none;} a{text-decoration:none;}
     .Navbar{
         text-align:center;
         font-size:30px;
-        box-shadow: 0px 7px 5px -2px rgba(146, 146, 146, 0.26);
+        box-shadow: none;
         padding-top: 11px;
         margin-bottom: 5%;
         height: 100px;
@@ -749,10 +761,22 @@ a:hover{text-decoration:none;} a{text-decoration:none;}
     
     /*Large*/
     @media (min-width: 992px) and (max-width: 1199.98px) { 
-    
-        
+        .Navbar{
+            text-align:center;
+            font-size:30px;
+            box-shadow: none;
+            padding-top: 11px;
+            margin-bottom: 3%;
+            height: 100px;
+            width: 100%;
+            padding:none;
+            margin:none;
+           
+        }
      }
     
     /*Extra Large*/
-    @media (min-width: 1200px) {  }
+    @media (min-width: 1200px) { 
+
+     }
 
