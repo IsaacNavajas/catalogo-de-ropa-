@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/catalogo-de-ropa-/precache-manifest.0d6de553a9dac01e52cde321859c5ea4.js"
+  "/catalogo-de-ropa-/precache-manifest.d8a719283f2557e5c438efdc1033bf0b.js"
 );
 
 self.addEventListener('message', (event) => {

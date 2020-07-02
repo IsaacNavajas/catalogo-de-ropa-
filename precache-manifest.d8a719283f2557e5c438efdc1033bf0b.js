@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ecf165b838d6b68a41377352d2d4faab",
+    "revision": "fa7a2683c1d3ee1dbaf5ec1d5fd42473",
     "url": "/catalogo-de-ropa-/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/catalogo-de-ropa-/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "804c54ae745a10183a52",
-    "url": "/catalogo-de-ropa-/static/css/main.c804da38.chunk.css"
+    "revision": "01a086c83adc3e03ddba",
+    "url": "/catalogo-de-ropa-/static/css/main.da095037.chunk.css"
   },
   {
     "revision": "c1276726b1df5172ec54",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/catalogo-de-ropa-/static/js/2.81b971a1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "804c54ae745a10183a52",
-    "url": "/catalogo-de-ropa-/static/js/main.905d9f5f.chunk.js"
+    "revision": "01a086c83adc3e03ddba",
+    "url": "/catalogo-de-ropa-/static/js/main.ad45a8d5.chunk.js"
   },
   {
     "revision": "1f1fd48117647ed6f7e6",
@@ -74,9 +74,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "829ba48d7d77344bb7bb1971856fd9f5",
     "url": "/catalogo-de-ropa-/static/media/tres.829ba48d.png"
-  },
-  {
-    "revision": "829ba48d7d77344bb7bb1971856fd9f5",
-    "url": "/catalogo-de-ropa-/static/media/uno.829ba48d.png"
   }
 ]);
