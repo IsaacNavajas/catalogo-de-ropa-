@@ -8,7 +8,7 @@ import Pageone from './Pageone'
 class Verificarfrases extends React.Component{
     constructor(props) {
         super(props);
-        this.state={ time:[] }
+     
  
     }
 

@@ -15,9 +15,9 @@ class Layout extends React.Component{
                 <div className="container-fluid" > 
 
                     <Navbar/>
-                    
-                    {this.props.children}
-                  
+                        <section  className="container-fluid">
+                            {this.props.children}
+                        </section>
                 </div>
 
                 
