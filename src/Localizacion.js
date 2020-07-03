@@ -12,7 +12,7 @@ class Localizacion extends React.Component{
 
                     <div className="row"></div>
   
-                <div className="col-12">
+                <div className="col-12 ">
                     
                     <div  className="col-12 col-lg-6">
                        <iframe 
@@ -31,10 +31,12 @@ class Localizacion extends React.Component{
 
 
                     </div>
-                    <div  className=" descripcion col-12 col-lg-6">{`
-                                        C/ Republica Argentina número 13. 
-                                        Te estamos esperando.
-                            `}</div>
+                    <text  className=" descripcion col-12 col-lg-6">{`
+                                        C/ Republica Argentina número 13. `}</text>
+                    <text  className=" descripcion col-12 col-lg-6">{`
+                                        Te estamos esperando. `}</text>
+                                          
+                            
                 </div>
 
 

@@ -22,8 +22,8 @@ class Ropa extends React.Component{
                 <div className="col-12">
                     <div className="row">
 
-                        <div  className="col-3"></div>
-                                    <div  className="col-6">
+                        <div  className="col-1 col-sm-3"></div>
+                                    <div  className="col-10 col-sm-6">
                                         
                                             <div  className=" col-12 col-md-12 col-sm-12 col-lg-6"><img className="fotoscatalogo" src={imagenuno} alt="Imagen de CarpeDiem1213"></img></div>
 
@@ -52,7 +52,7 @@ class Ropa extends React.Component{
 
                                     </div>
 
-                        <div  className="col-3"></div>
+                        <div  className="col-1 col-sm-3"></div>
                     </div>
   
                 </div>
