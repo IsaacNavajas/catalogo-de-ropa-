@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a70a3c57d0a7f2bc3f0b86254764066",
+    "revision": "fa1f39f4d930784ce74feafdc924a24a",
     "url": "/catalogo-de-ropa-/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/catalogo-de-ropa-/static/css/2.5854cb90.chunk.css"
   },
   {
-    "revision": "3257013173396dc88416",
+    "revision": "d4e7c5211ccbca76beb9",
     "url": "/catalogo-de-ropa-/static/css/main.4762c707.chunk.css"
   },
   {
@@ -20,24 +20,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/catalogo-de-ropa-/static/js/2.81b971a1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3257013173396dc88416",
-    "url": "/catalogo-de-ropa-/static/js/main.ce01a890.chunk.js"
+    "revision": "d4e7c5211ccbca76beb9",
+    "url": "/catalogo-de-ropa-/static/js/main.ca1c9e67.chunk.js"
   },
   {
     "revision": "1f1fd48117647ed6f7e6",
     "url": "/catalogo-de-ropa-/static/js/runtime-main.f99d8084.js"
   },
   {
-    "revision": "829ba48d7d77344bb7bb1971856fd9f5",
-    "url": "/catalogo-de-ropa-/static/media/cinco.829ba48d.png"
+    "revision": "3df4ff39aefe09eb88db0f3992efe44e",
+    "url": "/catalogo-de-ropa-/static/media/cinco.3df4ff39.png"
   },
   {
-    "revision": "829ba48d7d77344bb7bb1971856fd9f5",
-    "url": "/catalogo-de-ropa-/static/media/cuatro.829ba48d.png"
+    "revision": "973024baa84becb26602f802af5592ac",
+    "url": "/catalogo-de-ropa-/static/media/cuatro.973024ba.png"
   },
   {
-    "revision": "dbad94401eeabad42955267340133e0a",
-    "url": "/catalogo-de-ropa-/static/media/dos.dbad9440.png"
+    "revision": "b67b966b9d55a0231bb15e473b99b9bc",
+    "url": "/catalogo-de-ropa-/static/media/dos.b67b966b.png"
   },
   {
     "revision": "571962dca94f141c8c37c7f5847626d7",
@@ -60,19 +60,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/catalogo-de-ropa-/static/media/logo.829ba48d.png"
   },
   {
-    "revision": "829ba48d7d77344bb7bb1971856fd9f5",
-    "url": "/catalogo-de-ropa-/static/media/ocho.829ba48d.png"
+    "revision": "50f98af6f8f35e822b8596e55905fb47",
+    "url": "/catalogo-de-ropa-/static/media/ocho.50f98af6.png"
   },
   {
-    "revision": "829ba48d7d77344bb7bb1971856fd9f5",
-    "url": "/catalogo-de-ropa-/static/media/seis.829ba48d.png"
+    "revision": "26d923bf85838039ab27df931afb094f",
+    "url": "/catalogo-de-ropa-/static/media/seis.26d923bf.png"
   },
   {
-    "revision": "829ba48d7d77344bb7bb1971856fd9f5",
-    "url": "/catalogo-de-ropa-/static/media/siete.829ba48d.png"
+    "revision": "58d7e823f4ad08898b93ac92ee1056c6",
+    "url": "/catalogo-de-ropa-/static/media/siete.58d7e823.png"
   },
   {
-    "revision": "829ba48d7d77344bb7bb1971856fd9f5",
-    "url": "/catalogo-de-ropa-/static/media/tres.829ba48d.png"
+    "revision": "9169380b4730dd6ab1456ab9ddc82e5b",
+    "url": "/catalogo-de-ropa-/static/media/tres.9169380b.png"
+  },
+  {
+    "revision": "b67b966b9d55a0231bb15e473b99b9bc",
+    "url": "/catalogo-de-ropa-/static/media/uno.b67b966b.png"
   }
 ]);
