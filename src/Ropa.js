@@ -18,7 +18,7 @@ class Ropa extends React.Component{
         return(
             <React.Fragment>
                 <div className="rebajas col-12">
-                    <p className="textoRebajas">Este mes rebajas de primavera! Disfruta con nosotros! </p>
+                    <p className="textoRebajas">Este mes rebajas de primavera! Disfrutalas. </p>
                 </div>
                 <div className="margendelnavbar col-12">
                     
