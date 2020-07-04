@@ -12,7 +12,7 @@ class Localizacion extends React.Component{
 
                     <div className="row"></div>
   
-                <div className="col-12 ">
+                <div className="col-12 margendelnavbar">
                     
                     <div  className="col-12 col-lg-6">
                        <iframe 
