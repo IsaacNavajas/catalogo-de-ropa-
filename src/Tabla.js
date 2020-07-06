@@ -14,13 +14,17 @@ class Tabla extends React.Component{
     
     render(){
         return(
-            <React.Fragment>
+            
+            <React.Fragment >
+                
+                <div className="col-12">         
+                
+                
+                <div id="cuadro" className="col-md-3 col-md-3 col-sm-9"></div>
+                
+                    <div id="tabla" className="col-6 col-md-6 col-sm-6">
 
-                <div className="row">
-                <div className="col-md-3 col-md-3 col-sm-12"></div>
-                    <div id="tabla" className="col-6 col-md-6 col-sm-12">
-
-
+                    
 
                                     <ul>
 
@@ -55,10 +59,14 @@ class Tabla extends React.Component{
                             </img>
 
                     </div>
-                    <div className="col-md-3 col-md-0 col-sm-0"></div>
-                </div>
+                    <div id="cuadro" className="col-md-3 col-md-0 col-sm-3"></div>
 
+                    </div>
+                <div className="row">
 
+                </div> 
+
+                
 
 
             </React.Fragment>
