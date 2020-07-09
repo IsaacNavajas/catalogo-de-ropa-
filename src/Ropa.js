@@ -1,5 +1,7 @@
 import React from "react";
 
+import Modal from './Modal';
+
 import imagenuno from './galeria/uno.png'
 import imagendos from './galeria/dos.png'
 import imagentres from './galeria/tres.png'
@@ -13,6 +15,14 @@ import OFERTA from './galeria/barradeoferta/OFERTA.png'
 
 
 class Ropa extends React.Component{
+    state={ abrirModal:false }
+
+    cerrarModal =() => {
+        this.setState({abrirModal:false})
+    }
+    abrirModal =() => {
+        this.setState({abrirModal:true})
+    }
 
     render(){
         return(
@@ -31,73 +41,122 @@ class Ropa extends React.Component{
                                     
                                             {/*<img  src={OFERTA} className="oferta" alt="estado en oferta"></img>*/}  {/*MOSTRAR OFERTA*/}
                                             <div>
-                                                <img  className="fotoscatalogo" src={imagencuatro} alt="Imagen de CarpeDiem1213"></img>
+                                                <img 
+                                                onClick={this.abrirModal} 
+                                                className="fotoscatalogo" 
+                                                src={imagencuatro} 
+                                                alt="Imagen de CarpeDiem1213"></img>
                                                 </div>
                                             </div>
 
+
                                             <div  className="col-12 col-md-12 col-sm-12 col-lg-6"> 
                                                 {/*<img  src={OFERTA} className="oferta" alt="estado en oferta"></img>*/}  {/*MOSTRAR OFERTA*/}
-                                                <img className="fotoscatalogo" src={imagendos} alt="Imagen de CarpeDiem1213"></img>
+                                                <img 
+                                                onClick={this.abrirModal}
+                                                className="fotoscatalogo" 
+                                                src={imagendos} 
+                                                alt="Imagen de CarpeDiem1213"></img>
                                             </div>
                                             
                                             <div  className="separador row"></div>
 
                                             <div  className=" col-12 col-md-12 col-sm-12 col-lg-6"> 
                                                 <img  src={OFERTA} className="oferta" alt="estado en oferta"></img>  {/*MOSTRAR OFERTA*/}
-                                                <img className="fotoscatalogo" src={imagentres} alt="Imagen de CarpeDiem1213"></img>
+                                                <img 
+                                                onClick={this.abrirModal}
+                                                className="fotoscatalogo" 
+                                                src={imagentres} 
+                                                alt="Imagen de CarpeDiem1213"></img>
                                             </div>
 
                                             <div  className="col-12 col-md-12 col-sm-12 col-lg-6"> 
                                                 {/*<img  src={OFERTA} className="oferta" alt="estado en oferta"></img>*/}  {/*MOSTRAR OFERTA*/}
-                                                <img className="fotoscatalogo" src={imagencuatro} alt="Imagen de CarpeDiem1213"></img>
+                                                <img 
+                                                onClick={this.abrirModal}
+                                                className="fotoscatalogo" 
+                                                src={imagencuatro} 
+                                                alt="Imagen de CarpeDiem1213"></img>
                                             </div>
 
                                             <div  className="separador row"></div>
 
                                             <div  className=" col-12 col-md-12 col-sm-12 col-lg-6"> 
                                                 {/*<img  src={OFERTA} className="oferta" alt="estado en oferta"></img>*/}  {/*MOSTRAR OFERTA*/}
-                                                <img className="fotoscatalogo" src={imagencinco} alt="Imagen de CarpeDiem1213"></img>
+                                                <img 
+                                                onClick={this.abrirModal}
+                                                className="fotoscatalogo" 
+                                                src={imagencinco} 
+                                                alt="Imagen de CarpeDiem1213"></img>
                                             </div>
                       
                                             <div  className=" col-12 col-md-12 col-sm-12 col-lg-6"> 
                                                 <img  src={OFERTA} className="oferta" alt="estado en oferta"></img>  {/*MOSTRAR OFERTA*/}
-                                                <img className="fotoscatalogo" src={imagenseis} alt="Imagen de CarpeDiem1213"></img>
+                                                <img 
+                                                onClick={this.abrirModal}
+                                                className="fotoscatalogo" 
+                                                src={imagenseis} 
+                                                alt="Imagen de CarpeDiem1213"></img>
                                             </div>
 
                                             <div  className="separador row"></div>
 
                                             <div  className=" col-12 col-md-12 col-sm-12 col-lg-6"> 
                                                 {/*<img  src={OFERTA} className="oferta" alt="estado en oferta"></img>*/}  {/*MOSTRAR OFERTA*/}
-                                                <img className="fotoscatalogo" src={imagensiete} alt="Imagen de CarpeDiem1213"></img>
+                                                <img 
+                                                onClick={this.abrirModal}
+                                                className="fotoscatalogo" 
+                                                src={imagensiete} 
+                                                alt="Imagen de CarpeDiem1213"></img>
                                             </div>
                             
                                             <div  className=" col-12 col-md-12 col-sm-12 col-lg-6"> 
                                                 {/*<img  src={OFERTA} className="oferta" alt="estado en oferta"></img>*/}  {/*MOSTRAR OFERTA*/}
-                                                <img className="fotoscatalogo" src={imagenocho} alt="Imagen de CarpeDiem1213"></img>
+                                                <img 
+                                                onClick={this.abrirModal}
+                                                className="fotoscatalogo" 
+                                                src={imagenocho} 
+                                                alt="Imagen de CarpeDiem1213"></img>
                                             </div>
                                             
                                             <div  className="separador row"></div>
 
                                             <div  className=" col-12 col-md-12 col-sm-12 col-lg-6"> 
                                                 {/*<img  src={OFERTA} className="oferta" alt="estado en oferta"></img>*/}  {/*MOSTRAR OFERTA*/}
-                                                <img className="fotoscatalogo" src={imagenuno} alt="Imagen de CarpeDiem1213"></img>
+                                                <img 
+                                                onClick={this.abrirModal}
+                                                className="fotoscatalogo" 
+                                                src={imagenuno} 
+                                                alt="Imagen de CarpeDiem1213"></img>
                                             </div>
                             
                                             <div  className=" col-12 col-md-12 col-sm-12 col-lg-6"> 
                                                 {/*<img  src={OFERTA} className="oferta" alt="estado en oferta"></img>*/}  {/*MOSTRAR OFERTA*/}
-                                                <img className="fotoscatalogo" src={imagenocho} alt="Imagen de CarpeDiem1213"></img>
+                                                <img 
+                                                onClick={this.abrirModal}
+                                                className="fotoscatalogo" 
+                                                src={imagenocho} 
+                                                alt="Imagen de CarpeDiem1213"></img>
                                             </div>
                                             
                                             <div  className="separador row"></div>
 
                                             <div  className=" col-12 col-md-12 col-sm-12 col-lg-6"> 
                                                 {/*<img  src={OFERTA} className="oferta" alt="estado en oferta"></img>*/}  {/*MOSTRAR OFERTA*/}
-                                                <img className="fotoscatalogo" src={imagensiete} alt="Imagen de CarpeDiem1213"></img>
+                                                <img 
+                                                onClick={this.abrirModal}
+                                                className="fotoscatalogo" 
+                                                src={imagensiete} 
+                                                alt="Imagen de CarpeDiem1213"></img>
                                             </div>
                             
                                             <div  className=" col-12 col-md-12 col-sm-12 col-lg-6"> 
                                                 {/*<img  src={OFERTA} className="oferta" alt="estado en oferta"></img>*/}  {/*MOSTRAR OFERTA*/}
-                                                <img className="fotoscatalogo" src={imagenocho} alt="Imagen de CarpeDiem1213"></img>
+                                                <img 
+                                                onClick={this.abrirModal}
+                                                className="fotoscatalogo" 
+                                                src={imagenocho} 
+                                                alt="Imagen de CarpeDiem1213"></img>
                                             </div>
 
                                             <div  className="separador row"></div>
@@ -111,8 +170,11 @@ class Ropa extends React.Component{
                 </div>
 
 
-               
-                
+                                            <Modal 
+                                                isOpen={this.state.abrirModal} 
+                                                onClose={this.cerrarModal}> 
+                                                    <p>Acércate a nuestra tienda y pruébatelo.</p>
+                                            </Modal>
                
                 
 
