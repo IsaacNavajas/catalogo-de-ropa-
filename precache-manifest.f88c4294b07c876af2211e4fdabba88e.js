@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "958db0da698dd96359e7886d0f788693",
+    "revision": "528d16d898fa511689c86cc92a607966",
     "url": "/catalogo-de-ropa-/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/catalogo-de-ropa-/static/css/2.5854cb90.chunk.css"
   },
   {
-    "revision": "ae0a51b18817f680fef3",
+    "revision": "1452c95100e3dd1230fb",
     "url": "/catalogo-de-ropa-/static/css/main.d60abeec.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/catalogo-de-ropa-/static/js/2.b2ec820a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ae0a51b18817f680fef3",
-    "url": "/catalogo-de-ropa-/static/js/main.4a4d0dfd.chunk.js"
+    "revision": "1452c95100e3dd1230fb",
+    "url": "/catalogo-de-ropa-/static/js/main.63f66304.chunk.js"
   },
   {
     "revision": "1f1fd48117647ed6f7e6",
